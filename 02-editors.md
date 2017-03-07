@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> My preferred editor will be vim because I want to learn a more-widely used editor than nano.
 
 --
 
@@ -89,6 +89,5 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> I will use Sublime Text because it is one of the more popular/common text editors and it has some cool features: autocomplete, command+D to select multiple occurrences of the word, and command + / to comment out a line etc. You can customize by going to Preferences.sublime-settings or installing Packages/themes. 
  
