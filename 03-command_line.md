@@ -28,9 +28,11 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 7. mv *filename* *newfilename* (renames filename to new filename)
 8. ls -a (lists hidden files)
 9. cp *filename* *directoryname/* (copies filen to specificed directory)
-10. ** * ** (wildcard selects all)
+10. * (wildcard selects all)
 11. open *filename* (opens file)
 12. grep -l *word* (returns a list of files with specified word)
+
+
 ---
 
 ### Q2.  List Files in Unix   
