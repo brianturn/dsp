@@ -70,7 +70,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > Repeats an operation on a list of files, usually produced with a 'find' or 'grep' command and passed through a pipe.
+Repeats an operation on a list of files, usually produced with a 'find' or 'grep' command and passed through a pipe.
 **find . -name "*.py" | xargs grep "time"** *(finds all files in current directory ending in .py and returns file containing the word "time")*
 
  
