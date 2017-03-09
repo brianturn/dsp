@@ -29,7 +29,7 @@ How are Python lists and sets similar and different? Give examples of using both
 >> print (s)<br/>
 >> {'M', 'o', 'n'}<br/>
 
->> Lists are much less efficient at finding an element because at least half of the elements have to be checked. Sets are much >> quicker because the elements are unordered and are instead assigned to random buckets.
+>> Lists are much less efficient at finding an element because at least half of the elements have to be checked. Sets are much quicker because the elements are unordered and are instead assigned to random buckets.
 
 
 ---
