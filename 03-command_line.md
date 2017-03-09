@@ -22,7 +22,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 1. pwd (show current working directory)
 2. mkdir (create directory)
 3. rmdir (delete directory)
-4. touch *filename* (creates a file)
+4. touch *<filename>* (creates a file)
 5. rm (deletes file)
 6. rm -r (deletes a folder and it's contents)
 7. mv *filename* *newfilename* (renames filename to new filename)
