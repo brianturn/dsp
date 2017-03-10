@@ -23,12 +23,12 @@ How are Python lists and sets similar and different? Give examples of using both
 >> Lists and sets are both sequences of elements. Lists are mutable and indexed. Sets are unique elements only, unordered and immutable. 
 
 ```python
->> w = list('Moon')
->> print (w)
->> ['M', 'o','o','n']
->> s = set('Moon')
->> print (s)
->> {'M', 'o', 'n'}
+w = list('Moon')
+print (w)
+['M', 'o','o','n']
+s = set('Moon')
+print (s)
+{'M', 'o', 'n'}
 ```
 
 >> Lists are much less efficient at finding an element because at least half of the elements have to be checked. Sets are much quicker because the elements are unordered and are instead assigned to random buckets.
