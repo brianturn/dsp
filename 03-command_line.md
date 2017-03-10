@@ -74,7 +74,7 @@ What does `xargs` do? Give an example of how to use it.
 >> Repeats an operation on a list of files, usually produced with a 'find' or 'grep' command and passed through a pipe.
 
 ```console
-find . -name "*.py" | xargs grep "time"
+$ find . -name "*.py" | xargs grep "time"
 ```
 
 >> The above code finds all files in the current directory ending in .py and returns all files containing the word "time".
