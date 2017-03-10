@@ -46,24 +46,24 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-1. ls (lists files in working directory)
-2. ls -a (lists hidden files in working directory)
-3. ls -l (long version of files showing permissions, number of directories, user, size, date last modified, filename)
-4. ls -lh (prints long version with human readable file size i.e. 10MB)
-5. ls -lah (prints long version including hidden files with human readable file size i.e. 10MB)
-6. ls -t (prints files in reverse chrono from date last modified)
-7. ls -Glp (prints files in long format minus owner)
+>> 1. ls (lists files in working directory)
+>> 2. ls -a (lists hidden files in working directory)
+>> 3. ls -l (long version of files showing permissions, number of directories, user, size, date last modified, filename)
+>> 4. ls -lh (prints long version with human readable file size i.e. 10MB)
+>> 5. ls -lah (prints long version including hidden files with human readable file size i.e. 10MB)
+>> 6. ls -t (prints files in reverse chrono from date last modified)
+>> 7. ls -Glp (prints files in long format minus owner)
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-1. ls -log (without group or owner)
-2. ls -lm (comma separated format)
-3. ls -lp (displays directory with /)
-4. ls -lR (displays subdirectories)
-5. ls -1 (display each directory on a row, more readable)
+>> 1. ls -log (without group or owner)
+>> 2. ls -lm (comma separated format)
+>> 3. ls -lp (displays directory with /)
+>> 4. ls -lR (displays subdirectories)
+>> 5. ls -1 (display each directory on a row, more readable)
 ---
 
 ### Q4.  Xargs   
@@ -71,7 +71,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 >> Repeats an operation on a list of files, usually produced with a 'find' or 'grep' command and passed through a pipe.
-**find . -name "*.py" | xargs grep "time"** *(finds all files in current directory ending in .py and returns file containing the word "time")*
+
+```console
+find . -name "*.py" | xargs grep "time"
+```
+
+>> The above code finds all files in the current directory ending in .py and returns all files containing the word "time".
 
  
 
