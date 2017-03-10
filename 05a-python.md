@@ -40,7 +40,23 @@ print (s)
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambdas are compact, anonymous functions that do not use def or return keywords. Lambdas follow the form: *lambda* [parameters(s)]: [expression]
+
+Here is an example:
+```python
+#returns a function that squares the argument
+a = lambda x: x**2
+print (a(4))
+16
+```
+>> Here is an example of using a lambda as a key to sort a tuple:
+```python
+t = [(300, 1, 'Adam'), (200, 0, 'Bob'), (100, 2, 'Cathy')]
+
+print (sorted(t, key=lambda name: name[2]))
+
+[(300, 1, 'Adam'), (200, 0, 'Bob'), (100, 2, 'Cathy')]
+```
 
 ---
 
