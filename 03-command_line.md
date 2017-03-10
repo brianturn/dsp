@@ -24,7 +24,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 >> 3. rmdir (delete directory)
 >> 4. touch *filename* (creates a file)
 >> 5. rm (deletes file)
->> 6. rm -r (deletes a folder and it's contents)
+>> 6. rm -r (deletes a directory and it's contents)
 >> 7. mv *filename* *newfilename* (renames filename to new filename)
 >> 8. ls -a (lists hidden files)
 >> 9. cp *filename* *directoryname/* (copies file to specificed directory)
@@ -62,7 +62,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 >> 1. ls -log (without group or owner)
 >> 2. ls -lm (comma separated format)
 >> 3. ls -lp (displays directory with /)
->> 4. ls -lR (displays subdirectories)
+>> 4. ls -R (displays subdirectories and the files inside them)
 >> 5. ls -1 (display each directory on a row, more readable)
 ---
 
