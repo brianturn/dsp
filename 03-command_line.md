@@ -64,6 +64,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 >> 3. ls -lp (displays directory with /)
 >> 4. ls -R (displays subdirectories and the files inside them)
 >> 5. ls -1 (display each directory on a row, more readable)
+
 ---
 
 ### Q4.  Xargs   
