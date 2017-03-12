@@ -120,7 +120,7 @@ def linear_merge(list1, list2):
     """
     list1.sort()
     list2.sort()
-    return sorted(list1 + list2) # not sure if this solution counts as a single pass
+    return sorted(list1 + list2) 
 
 print (linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc']))
 print (linear_merge(['aa', 'xx'], ['bb', 'cc', 'zz']))
