@@ -67,6 +67,7 @@ print (sorted(t, key=lambda name: name[2]))
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
 >> List comprehensions are succinct ways to traverse a list and return or modify values in the list.
+
 ```python
 nums = [1, 2, 3, 4, 5]
 
@@ -85,8 +86,10 @@ another_list = [n for n in nums if n%2 == 0] # list comprehension, returns the n
 
 print (another_list)
 # [2, 4]
-``` 
+```
+ 
 >> Here is the filter function compared to list comprehension:
+
 ```python
 t = filter(lambda n: n%2 == 0, nums) # same thing with filter
 
@@ -105,9 +108,6 @@ filter_list = map(lambda n: n**2, filter(lambda n: n%2 == 0, nums))
 print (list(filter_list))
 # [4, 16]
 ```
-
-
-
 
 ---
 
