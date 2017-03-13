@@ -5,6 +5,7 @@
 # then print the name of the team with the smallest difference in ‘for’ and ‘against’ goals.
 
 def points_diff(filename):
+	# create a dictionary with a key of team name and a value of the absolute difference between goals for/against
 	d = dict()
 	for line in filename:
 		columns = line.strip().split(',')
@@ -13,6 +14,7 @@ def points_diff(filename):
 	return d
 
 def sort_dict():
+	# sort the dictionary as a list and display the first result
 	d = points_diff(filename)
 	results = list(d.items())
 	return sorted(results, key=lambda points: points[1])[0]
