@@ -75,11 +75,14 @@ new_list = [n*n for n in nums] # list comprehension
 
 print (new_list)
 # [1, 4, 9, 16, 25]
+```
 
-# compare list comprehension above to map function:
+>> Map and filter functions have similar capabilities as list functions, however map/filter yield an iterable object:
+
+```python
 map_list = map(lambda n: n*n, nums)
 
-print (list(map_list))
+print (list(map_list)) # iterable map_list object passed through list function
 # [1, 4, 9, 16, 25]
 
 another_list = [n for n in nums if n%2 == 0] # list comprehension, returns the number if even
@@ -107,6 +110,29 @@ filter_list = map(lambda n: n**2, filter(lambda n: n%2 == 0, nums))
 
 print (list(filter_list))
 # [4, 16]
+```
+
+>> Example of dictionary comprehension:
+
+```python
+names = ['Adam', 'Billy', 'Mary']
+scores = [70, 80, 90]
+
+my_dict = {name: score for name, score in zip(names, scores)}
+
+print (my_dict)
+# {'Adam': 70, 'Billy': 80, 'Mary': 90}
+```
+
+>> Example of set comprehension:
+
+```python
+numbers = [1, 3, 5, 6, 6, 7, 8, 8, 8, 9]
+
+my_set = {n for n in numbers if n > 5}
+
+print (sorted(my_set))
+# [6, 7, 8, 9]
 ```
 
 ---
