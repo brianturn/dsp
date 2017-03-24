@@ -52,7 +52,7 @@ print ("Undefined. cannot multiply B times transpose A")
 print ("Optional:")
 print ("Undefined")
 print (np.dot(C, B)) # [5 -6] / [9 -8] / [6 -6]
-print (B**4) # [1 1] / [0 1 ]
+print (np.dot(np.dot(np.dot(B,B),B),B)) # [1 -4] / [0 1 ]
 print (np.dot(A, A.transpose())) # [14 28] / [28 69]
 print (np.dot(D.transpose(), D)) # [10 -4 0] / [-4 8 8] / [0 8 10]
 
