@@ -107,11 +107,11 @@ How do frequentist and Bayesian statistics compare?
 
 >> A frequentist approach would define the probability of an event occuring by observing a large number of repeated trials and seeing how many times the event occured. The probability is calculated as the limit of the number of times the event occured divided by the number of trials. For example, a frequentist model would define the probability of a coin landing heads as the number of times the coin landed heads when the limit of coin flips approaches infinity. 
 
-A Bayesian would assign a probability value based on prior knowledge - the chance of heads in a fair coin is 50/50. 
+>> A Bayesian would assign a probability value based on prior knowledge - the chance of heads in a fair coin is 50/50. 
 
-A frequentist treats parameters of a model fixed but unknown - the parameters can be estimated through repeated sampling.   
+>> A frequentist treats parameters of a model fixed but unknown - the parameters can be estimated through repeated sampling.   
 
-Parameters in a Bayesian model are random variables described by a probability distribution -- the  more complete and accurate the prior knowledge, the more accurate the probability estimate is over small sample sizes.  
+>> Parameters in a Bayesian model are random variables described by a probability distribution -- the  more complete and accurate the prior knowledge, the more accurate the probability estimate is over small sample sizes.  
 
 
 ---
